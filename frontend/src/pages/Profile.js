@@ -1,21 +1,22 @@
-
 import { useState } from "react";
 import { CiCirclePlus } from "react-icons/ci";
 import '../css/profile.css';
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const UserProfile = ({ parameter }) => {
   return (
     <>
       <div className="user-info-container">
-        <div className="user-img ">
-          {parameter.userimage}
-        </div>
-        <p className="user-name ">
-          {parameter.username}
-        </p>
-        <button className="donate-btn">
-          COLLECT FUND
-        </button>
+        
+          <img
+            className="user-img "
+            src={parameter.userimage}
+            alt="userimage"
+          />
+       
+        <p className="user-name ">{parameter.username}</p>
+        <button className="donate-btn">COLLECT FUND</button>
       </div>
     </>
   );
@@ -25,15 +26,18 @@ const Profile = ({onClose}) => {
   const userProfileData = [
     /*backend array*/
     {
-      userimage: "user1.jpg",
+      userimage:
+        "https://tse4.mm.bing.net/th?id=OIP.WpnGIPj1DKAGo-CP64znTwHaHa&pid=Api&P=0&h=1800",
       username: "Aastha",
     },
     {
-      userimage: "user2.jpg",
+      userimage:
+        "https://tse2.mm.bing.net/th?id=OIP.0ufZVBFzwkW8fV1ovsrxMgHaF3&pid=Api&P=0&h=1800",
       username: "Aadya",
     },
     {
-      userimage: "user2.jpg",
+      userimage:
+        "https://png.pngtree.com/png-vector/20190710/ourlarge/pngtree-user-vector-avatar-png-image_1541962.jpg",
       username: "Aarsh",
     },
   ];
@@ -61,35 +65,30 @@ const Profile = ({onClose}) => {
 
   return (
     <>
-      <div className="container-wrapper" onClick={onClose}>
-        {" "}
-      </div>
-      <div className="profile-container bg-white grid grid-cols-2">
-
-        <UserProfile parameter={userProfileData[2]} />
+      <Navbar />
+      <div className="container-wrapper" onClick={onClose}></div>
+      <div className="profile-container bg-#14161b grid grid-cols-2">
+        <UserProfile parameter={userProfileData[0]} />
         <div className="songs-container grid col-span-1 bg-aliceblue overflow-auto h-96 justify-center items-center flex-wrap gap-8 flex-col">
           <div className="add-event-btn-div flex items-center justify-center w-full h-12">
             <CiCirclePlus
-              className="add-event-btn h-8 w-8 text-black cursor-pointer"
+              className="add-event-btn h-10 w-10 text-white mt-2 cursor-pointer"
               onClick={handleClick}
             />
           </div>
           {SongsData.slice(0, index + 1).map((item, idx) => (
             <div
               key={idx}
-              className="songs-div bg-orange-400 self-center text-center h-10 w-80 rounded-md"
+              className="songs-div bg-yellow-300 text-white self-center text-center h-10 w-80 rounded-md"
             >
               {item.songs}
             </div>
           ))}
         </div>
       </div>
+      <Footer />
     </>
   );
 };
 
 export default Profile;
-
-
-
-

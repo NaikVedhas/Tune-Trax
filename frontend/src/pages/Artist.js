@@ -7,7 +7,7 @@ import { ArtistContext } from "../context/artContext";
 const UserProfile = ({ artist }) => {
   return (
     <div className="user-info-container grid justify-center items-center">
-      \<img
+      <img
           className="h-64 w-64 object-cover rounded-full mx-auto"
           src={artist.image}
           alt={artist.name}
@@ -65,7 +65,7 @@ const Artist = () => {
           {SongsData.slice(0, index + 1).map((item, idx) => (
             <div
               key={idx}
-              className="songs-div bg-orange-400 dark:bg-yellow-500 self-center text-center h-10 w-80 rounded-md"
+              className="songs-div bg-yellow-300 dark:bg-yellow-500 self-center text-center h-10 w-80 rounded-md"
             >
               {item.songs}
             </div>

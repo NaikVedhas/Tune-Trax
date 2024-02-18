@@ -7,20 +7,21 @@ import { ArtistContext } from "../context/artContext";
 
 const ArtistCard = ({ artist }) => {
   const [isHovered, setIsHovered] = useState(false);
-  const { setSelectedArtist } = useContext(ArtistContext); 
+  const { setSelectedArtist } = useContext(ArtistContext); // Accessing setSelectedArtist from context
+
   const handleArtistClick = () => {
-    setSelectedArtist(artist);
-    };  
+    setSelectedArtist(artist); // Setting the selected artist in the context
+  };
 
   return (
-    <Link to="/Artist" onClick={handleArtistClick}> 
+    <Link to="/Artist" onClick={handleArtistClick}> {/* Removed state from Link */}
       <div
         className={`max-w-lg rounded overflow-hidden shadow-lg bg-transparent transition-transform duration-300 transform hover:scale-105 ${
           isHovered ? "shadow-xl" : ""
         }`}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
-        style={{ height: "500px" }}
+        style={{ height: "500px" }} // Adjust the height here as needed
       >
         <img
           className="h-64 w-64 object-cover rounded-full mx-auto"
@@ -41,7 +42,12 @@ const Home = () => {
   const [artists, setArtists] = useState([]);
 
   useEffect(() => {
-    
+    // Fetch artist data here and update the artists state
+    // Example fetch call:
+    // fetch('api/artists')
+    //   .then(response => response.json())
+    //   .then(data => setArtists(data));
+    // For demo purpose, initializing with dummy data
     const dummyData = [
       { id: 1, name: 'Aston Merrygold', image: 'https://www.thesun.co.uk/wp-content/uploads/2023/10/aston-merrygold-attends-day-2-771041473-1.jpg' },
       { id: 2, name: 'Concha Buika', image: 'https://s3.amazonaws.com/allaboutjazz/media/large/9/2/0/28dbe4ffae972481d50126d35857b.jpg' },
