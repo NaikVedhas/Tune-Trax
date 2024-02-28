@@ -52,7 +52,10 @@ const Navbar = () => {
     <>
       <nav>
         <div className="nav-container">
-          <img src="../logo.png" alt='TuneTrax' className='website-name' />
+          <div className='website-name'>
+            <img src='../Logo_of_music_website.png'/>
+          <img src="../new-website-name.png" alt='TuneTrax' />
+          </div>
           <div className="other">
             <ul>
               <li>
