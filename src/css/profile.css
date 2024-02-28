@@ -1,0 +1,355 @@
+.profile-container {
+  height: fit-content;
+  margin-bottom: 20rem;
+}
+
+.user-info-container {
+  display: block;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.user-img-container {
+  background-color: rgb(255, 255, 255);
+  height:33rem;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+  opacity: 0.5;
+}
+
+.user-info {
+  display: grid;
+  gap: 1rem;
+  color: white;
+  margin-top: -8rem;
+  margin-left: 4rem;
+  position: relative;
+  z-index: 100;
+}
+
+.user-name {
+  font-size: 4rem;
+  letter-spacing: 0.1em;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.verified-artist {
+  display: flex;
+  font-size: 1.5rem;
+  margin-bottom: -1.5rem;
+}
+
+.icons {
+  height: 2rem;
+  width: 2rem;
+  background-image: url(../images/Verification-Blue-Tick.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 0.5rem;
+}
+
+.other-info {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  direction: row;
+  gap: 2rem;
+}
+
+.add-btn {
+  color: #fff;
+  height: 3.2rem;
+  width: 3.2rem;
+  cursor: pointer;
+}
+
+.play-btn {
+  color: white;
+  height: 3rem;
+  width: 3rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.play-btn:hover ,.add-btn:hover {
+  color: #eb04b4;
+}
+
+.buy-btn {
+  border: 0.1 solid white;
+  transition: all 0.3s ease;
+  color: black;
+  background-color: gray;
+  width: max-content;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  border: 0.1rem solid #646464;
+  box-shadow: rgba(96, 96, 96, 0.25) 0 .6rem 1.2rem -.2rem, rgba(80, 80, 80, 0.3) 0 .3rem .6rem -.3rem;
+  outline: none;
+}
+
+.buy-btn:hover{
+  background: linear-gradient(315deg, #350166 0%, #eb04b4 74%);
+}
+
+.donate-btn {
+  border: 0.1 solid white;
+  transition: all 0.3s ease;
+  color: black;
+  background-color: gray;
+  width: max-content;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.donate-btn:after {
+  margin-left: -9rem;
+  margin-top: -0.75rem;
+  position: absolute;
+  content: "";
+  z-index: -1;
+  width: 10rem;
+  height: 3rem;
+  border: 0.1 solid white;
+  border-radius: 1rem;
+  background-color: #eb04b4;
+  background-image: linear-gradient(315deg, #350166 0%, #eb04b4 74%);
+  transition: all 0.3s ease;
+}
+
+.donate-btn:hover {
+  background: transparent;
+  color: #fff;
+}
+
+.donate-btn:hover:after {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  box-shadow: 0.2rem 0.2rem 0.4rem 0 rgba(255, 255, 255, 0.5),
+    -0.2rem -0.2rem 0.4rem 0 rgba(116, 125, 136, 0.2),
+    inset -0.2rem -0.2rem 0.4rem 0 rgba(255, 255, 255, 0.5),
+    inset 0.2rem 0.2rem 0.4rem 0 rgba(116, 125, 136, 0.3);
+  overflow: hidden;
+}
+
+.icon-close-joinus {
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+}
+
+.songs-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  height: 30rem;
+  width: 100%;
+  color: white;
+  margin-top: 2rem;
+}
+
+.songs {
+  border: 0.2rem solid whitesmoke;
+  border-radius: 0.8rem;
+  margin: 2rem;
+  width: 95%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.songs h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-left: 2rem;
+}
+
+.song {
+  display: grid;
+  grid-column: 1/2;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  height: fit-content;
+}
+
+.about-artist {
+  border: 0.2rem solid whitesmoke;
+  border-radius: 0.8rem;
+  grid-column: 2/3;
+  width: 25rem;
+  margin: 2rem;
+  height: fit-content;
+}
+
+.about-artist p {
+  margin: 2rem;
+  font: 1.5rem;
+  height: fit-content;
+}
+
+.about-artist h1 {
+  margin: 2rem;
+  font-size: 2.5rem;
+}
+
+.all-songs-container {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 42rem;
+  overflow-y: auto;
+  width: 92%;
+  cursor: pointer;
+}
+
+.player-container {
+  background-color: transparent;
+  backdrop-filter: blur(8px);
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  height: 7rem;
+}
+
+.audio-conatainer {
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+}
+
+.control-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.next-icon,
+.prev-icon {
+  height: 3rem;
+  width: 3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.now-playing {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: black;
+  text-align: center;
+}
+
+.pause-icon,
+.play-icon {
+  margin-top: -10rem;
+  cursor: pointer;
+}
+
+.song-image {
+  grid-column: 1/2;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 0.2rem;
+}
+
+.song-info {
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: 5rem 4fr 1fr;
+  align-items: center;
+  height: 5rem;
+  width: 100%;
+  background-color: rgb(24, 24, 24);
+}
+
+.song-info:hover {
+  background-color: rgb(35, 34, 34);
+  border: 0.1rem solid rgb(95, 93, 93);
+  border-radius: 0.3rem;
+}
+
+.song-name {
+  grid-column: 2/3;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+  width: max-content;
+  height: 5rem;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+.song-timestamps {
+  grid-column: 3/4;
+  font: 1.2rem;
+  color: rgb(95, 93, 93);
+  text-align: center;
+}
+
+.artist-not-found{
+  display: flex;
+  text-align: center;
+  font-size: 2rem;
+  width: 40rem;
+  padding: 5rem;
+  justify-content: center;
+  justify-self: center;
+  margin-top: 6rem;
+  color: #eb04b4;
+}
+
+.insta{
+  height: 2rem;
+  width: 2rem;
+}
+
+.twitter{
+  height: 2rem;
+  width: 2rem;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  width: 6rem;
+  margin-left: -0.5rem;
+  justify-content: space-around;
+}
+
