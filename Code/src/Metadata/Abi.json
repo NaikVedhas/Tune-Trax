@@ -1,0 +1,352 @@
+[
+	{
+	  "inputs": [
+		{
+		  "internalType": "uint256",
+		  "name": "_id",
+		  "type": "uint256"
+		},
+		{
+		  "internalType": "address",
+		  "name": "streamingCompanies",
+		  "type": "address"
+		}
+	  ],
+	  "name": "addAccessMember",
+	  "outputs": [],
+	  "stateMutability": "nonpayable",
+	  "type": "function"
+	},
+	{
+	  "inputs": [
+		{
+		  "internalType": "uint256",
+		  "name": "_id",
+		  "type": "uint256"
+		},
+		{
+		  "internalType": "string",
+		  "name": "_ipfsHash",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "_nameOfSong",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "_imageOfSong",
+		  "type": "string"
+		}
+	  ],
+	  "name": "addSong",
+	  "outputs": [],
+	  "stateMutability": "payable",
+	  "type": "function"
+	},
+	{
+	  "inputs": [
+		{
+		  "internalType": "uint256",
+		  "name": "_id",
+		  "type": "uint256"
+		},
+		{
+		  "internalType": "uint256",
+		  "name": "_songId",
+		  "type": "uint256"
+		}
+	  ],
+	  "name": "buySong",
+	  "outputs": [
+		{
+		  "internalType": "string",
+		  "name": "",
+		  "type": "string"
+		}
+	  ],
+	  "stateMutability": "payable",
+	  "type": "function"
+	},
+	{
+	  "inputs": [
+		{
+		  "internalType": "uint256",
+		  "name": "_id",
+		  "type": "uint256"
+		}
+	  ],
+	  "name": "collectFunds",
+	  "outputs": [],
+	  "stateMutability": "payable",
+	  "type": "function"
+	},
+	{
+	  "inputs": [
+		{
+		  "internalType": "string",
+		  "name": "_name",
+		  "type": "string"
+		},
+		{
+		  "internalType": "address payable",
+		  "name": "_artistAddress",
+		  "type": "address"
+		},
+		{
+		  "internalType": "string",
+		  "name": "_location",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "_imageHash",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "_instaId",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "_twitterId",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "_description",
+		  "type": "string"
+		}
+	  ],
+	  "name": "registerArtist",
+	  "outputs": [],
+	  "stateMutability": "payable",
+	  "type": "function"
+	},
+	{
+	  "inputs": [
+		{
+		  "internalType": "uint256",
+		  "name": "_id",
+		  "type": "uint256"
+		}
+	  ],
+	  "name": "supportArtist",
+	  "outputs": [],
+	  "stateMutability": "payable",
+	  "type": "function"
+	},
+	{
+	  "inputs": [
+		{
+		  "internalType": "uint256",
+		  "name": "",
+		  "type": "uint256"
+		}
+	  ],
+	  "name": "arrArtist",
+	  "outputs": [
+		{
+		  "internalType": "string",
+		  "name": "name",
+		  "type": "string"
+		},
+		{
+		  "internalType": "address payable",
+		  "name": "artistAddress",
+		  "type": "address"
+		},
+		{
+		  "internalType": "string",
+		  "name": "location",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "instaId",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "twitterId",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "description",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "imageHash",
+		  "type": "string"
+		},
+		{
+		  "internalType": "uint256",
+		  "name": "funds",
+		  "type": "uint256"
+		},
+		{
+		  "internalType": "uint256",
+		  "name": "counter",
+		  "type": "uint256"
+		}
+	  ],
+	  "stateMutability": "view",
+	  "type": "function"
+	},
+	{
+	  "inputs": [],
+	  "name": "getArrArtist",
+	  "outputs": [
+		{
+		  "components": [
+			{
+			  "internalType": "string",
+			  "name": "name",
+			  "type": "string"
+			},
+			{
+			  "internalType": "address payable",
+			  "name": "artistAddress",
+			  "type": "address"
+			},
+			{
+			  "internalType": "string",
+			  "name": "location",
+			  "type": "string"
+			},
+			{
+			  "internalType": "string",
+			  "name": "instaId",
+			  "type": "string"
+			},
+			{
+			  "internalType": "string",
+			  "name": "twitterId",
+			  "type": "string"
+			},
+			{
+			  "internalType": "string",
+			  "name": "description",
+			  "type": "string"
+			},
+			{
+			  "internalType": "string",
+			  "name": "imageHash",
+			  "type": "string"
+			},
+			{
+			  "internalType": "uint256",
+			  "name": "funds",
+			  "type": "uint256"
+			},
+			{
+			  "internalType": "uint256",
+			  "name": "counter",
+			  "type": "uint256"
+			},
+			{
+			  "internalType": "string[]",
+			  "name": "songsIpfsHash",
+			  "type": "string[]"
+			},
+			{
+			  "internalType": "string[]",
+			  "name": "namesOfSongs",
+			  "type": "string[]"
+			},
+			{
+			  "internalType": "string[]",
+			  "name": "imageOfSongs",
+			  "type": "string[]"
+			},
+			{
+			  "internalType": "address[]",
+			  "name": "accessList",
+			  "type": "address[]"
+			}
+		  ],
+		  "internalType": "struct local.Artist[]",
+		  "name": "",
+		  "type": "tuple[]"
+		}
+	  ],
+	  "stateMutability": "view",
+	  "type": "function"
+	},
+	{
+	  "inputs": [
+		{
+		  "internalType": "uint256",
+		  "name": "",
+		  "type": "uint256"
+		}
+	  ],
+	  "name": "noOfArtist",
+	  "outputs": [
+		{
+		  "internalType": "string",
+		  "name": "name",
+		  "type": "string"
+		},
+		{
+		  "internalType": "address payable",
+		  "name": "artistAddress",
+		  "type": "address"
+		},
+		{
+		  "internalType": "string",
+		  "name": "location",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "instaId",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "twitterId",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "description",
+		  "type": "string"
+		},
+		{
+		  "internalType": "string",
+		  "name": "imageHash",
+		  "type": "string"
+		},
+		{
+		  "internalType": "uint256",
+		  "name": "funds",
+		  "type": "uint256"
+		},
+		{
+		  "internalType": "uint256",
+		  "name": "counter",
+		  "type": "uint256"
+		}
+	  ],
+	  "stateMutability": "view",
+	  "type": "function"
+	},
+	{
+	  "inputs": [],
+	  "name": "nthArtist",
+	  "outputs": [
+		{
+		  "internalType": "uint256",
+		  "name": "",
+		  "type": "uint256"
+		}
+	  ],
+	  "stateMutability": "view",
+	  "type": "function"
+	}
+  ]

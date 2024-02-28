@@ -1,0 +1,152 @@
+/*Donate form css start*/
+.donate-form-popup{
+  position: fixed;
+  height: 18rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 1.8rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
+  width: 25rem;
+  z-index: 9999;
+}
+
+#amount{
+  width: 100%;
+  border: 0.1rem solid black;
+  border-radius: 0.3rem;
+}
+/*Donate form css end*/
+
+
+/*Add songs form css start*/
+.addsongs-form-popup {
+  position: fixed;
+  height: 28rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 1.8rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
+  width: 25rem;
+  z-index: 9999;
+}
+
+.form-close-icon{
+  height: 2rem;
+  width: 2rem;
+  color: black;
+}
+
+.close-icon{
+  height: 1.5rem;
+  width: 1.5rem;
+}
+/*Add songs form css end*/
+
+
+/*become artist form css start*/
+.artist-form-popup {
+  position: fixed;
+  height: 35rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 1.8rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
+  width: 25rem;
+  z-index: 9999;
+}
+
+button[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 0.6rem 0.6rem;
+  border: none;
+  border-radius: 1.8rem;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 0.6rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06rem;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(94, 89, 89);
+}
+
+.close-icon {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 0.6rem;
+  color: #333333;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: black;
+  font-size: 1rem;
+}
+
+input[type="text"] {
+  width: calc(100% - 1.4rem);
+  padding: 0.6rem;
+  border: 0.1rem solid #cccccc;
+  border-radius: 0.4rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.7rem;
+}
+
+.artist-form.show {
+  display: block;
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+  margin-bottom: 0.3rem;
+  /* Reduce the space between inputs */
+  font-size: 0.6rem;
+  box-sizing: border-box;
+  /* Ensure padding and border are included in the width */
+}
+
+input[type="file"] {
+  padding: 0.5rem;
+  /* Adjust padding for file input */
+}
+
+/*become artist form css end*/
+
+
+.access-member-popup{
+  position: fixed;
+  height: fit-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 1.8rem;
+  border-radius: 0.6rem;
+  box-shadow: 0 0 1.25rem rgba(0, 0, 0, 0.1);
+  width: 25rem;
+  z-index: 9999;
+}
