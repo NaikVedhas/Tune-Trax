@@ -13,9 +13,7 @@
     Tune in your trax
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo Video »</a>
-    <br/>
-    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo Video »</a><p> </p>
     <a href="https://github.com/othneildrew/Best-README-Template">Visit live project »</a>
     
   </p>
