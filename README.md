@@ -63,6 +63,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Remix IDE][React.js]][Remix-url]
 * [![React][React.js]][React-url]
 * [![Tailwind CSS][React.js]][Tailwind-url]
+* IPFS
+* PINATA
  
 
 
