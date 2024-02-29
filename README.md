@@ -2,8 +2,8 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
     <img src="https://res.cloudinary.com/dow2w1ps0/image/upload/v1709141770/Logo_of_music_website_kbor0i.png" alt="Logo" width="80" height="80"> <img src="https://res.cloudinary.com/dow2w1ps0/image/upload/v1709141611/new-website-name_ibtthi.png" alt="Logo" width="300" height="100">
+<div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
   </a>
 
