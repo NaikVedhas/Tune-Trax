@@ -6,14 +6,13 @@
     <img src="https://res.cloudinary.com/dow2w1ps0/image/upload/v1709141770/Logo_of_music_website_kbor0i.png" alt="Logo" width="80" height="80">
 </div>
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
      <img src="https://res.cloudinary.com/dow2w1ps0/image/upload/v1709141611/new-website-name_ibtthi.png" alt="Logo" width="300" height="100">
   </a>
 
   <h3 align="center"></h3>
 
   <p align="center">
-    <i>Tune in your favourite trax</i>
+    <i fontsozie="13px">Tune in your favourite trax</i>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo Video »</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
