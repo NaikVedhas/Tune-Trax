@@ -1,5 +1,3 @@
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
     <img src="https://res.cloudinary.com/dow2w1ps0/image/upload/v1709141770/Logo_of_music_website_kbor0i.png" alt="Logo" width="80" height="80">
 </div>
@@ -8,7 +6,7 @@
   </a>
 
   <p align="center">
-    <i>Tune in your favourite trax</i>
+    <i>### Tune in your favourite trax</i>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo Video »</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -25,9 +23,10 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <br/>
-      <a href="#built-with">Built With</a>
     </li>
+     <li>
+         <a href="#built-with">Built With</a>
+     </li> 
   </ol>
 </details>
 
@@ -57,12 +56,12 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Solidity][React.js]][Solidity-url]
 * [![Wagmi][React.js]][Wagmi-url]
 * [![Family][React.js]][Family-url]
+* [![IPFS][React.js]][ipfs-url]
+* [![Pinata][React.js]][pinata-url]
 * [![Metamask][React.js]][Metamask-url]
 * [![Remix IDE][React.js]][Remix-url]
 * [![React][React.js]][React-url]
 * [![Tailwind CSS][React.js]][Tailwind-url]
-* IPFS
-* PINATA
  
 
 
@@ -84,3 +83,5 @@ This section should list any major frameworks/libraries used to bootstrap your p
 [Metamask-url]: https://metamask.io/
 [Tailwind-url]: https://tailwindcss.com/
 [Remix-url]: https://remix-project.org/
+[ipfs-url]: https://ipfs.tech/
+[pinata-url]: https://www.pinata.cloud/
