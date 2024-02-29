@@ -10,7 +10,7 @@
   <h3 align="center"></h3>
 
   <p align="center">
-    Tune in your trax
+    <i>Tune in your favourite trax</i>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo Video »</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
