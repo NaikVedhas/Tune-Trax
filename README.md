@@ -12,12 +12,11 @@
   <p align="center">
     Tune in your trax
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo Video</a>
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo Video »</a>
     <br/>
-    <a href="https://github.com/othneildrew/Best-README-Template">Visit live project</a>
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">Visit live project »</a>
     
   </p>
 </div>
