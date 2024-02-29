@@ -53,15 +53,15 @@ Key Attributes:
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Solidity][React.js]][Solidity-url]
-* [![Wagmi][React.js]][Wagmi-url]
-* [![Family][React.js]][Family-url]
-* [![IPFS][IPFS]][ipfs-url]
-* [![Pinata][React.js]][pinata-url]
-* [![Metamask][React.js]][Metamask-url]
-* [![Remix IDE][React.js]][Remix-url]
+* [Solidity][Solidity-url]
+* [Wagmi][Wagmi-url]
+* [Family][Family-url]
+* [IPFS][ipfs-url]
+* [Pinata][pinata-url]
+* [Metamask][Metamask-url]
+* [Remix IDE][Remix-url]
 * [React][React-url]
-* [![Tailwind CSS][React.js]][Tailwind-url]
+* [Tailwind CSS][Tailwind-url]
  
 
 
