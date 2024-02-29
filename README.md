@@ -26,6 +26,7 @@
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo Video</a>
+    <br/>
     <a href="https://github.com/othneildrew/Best-README-Template">Visit live project</a>
     
   </p>
