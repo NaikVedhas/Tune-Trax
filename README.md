@@ -9,8 +9,6 @@
      <img src="https://res.cloudinary.com/dow2w1ps0/image/upload/v1709141611/new-website-name_ibtthi.png" alt="Logo" width="300" height="100">
   </a>
 
-  <h3 align="center"></h3>
-
   <p align="center">
     <i>Tune in your favourite trax</i>
     <br />
