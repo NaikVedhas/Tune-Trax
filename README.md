@@ -6,7 +6,7 @@
   </a>
 
   <p align="center">
-    <i>### Tune in your favourite trax</i>
+## <i>Tune in your favourite trax</i>
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo Video »</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
