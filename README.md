@@ -60,7 +60,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [![Pinata][React.js]][pinata-url]
 * [![Metamask][React.js]][Metamask-url]
 * [![Remix IDE][React.js]][Remix-url]
-* [![React][React.js]][React-url]
+* [React][React-url]
 * [![Tailwind CSS][React.js]][Tailwind-url]
  
 
@@ -84,13 +84,3 @@ This section should list any major frameworks/libraries used to bootstrap your p
 [Remix-url]: https://remix-project.org/
 [ipfs-url]: https://ipfs.tech/
 [pinata-url]: https://www.pinata.cloud/
-
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[Solidity]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[IPFS]: https://www.fortune.my/wp-content/uploads/2021/09/ipfs.png
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
