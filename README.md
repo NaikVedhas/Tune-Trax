@@ -17,10 +17,11 @@
 
 <details>
 <summary>Table of Contents</summary>
+    
 - [Screenshots](📝Description)
 - [Screenshots](🔮Key attributes)
 - [Screenshots](📱Screenshots)
-- [Screenshots](🛠 Built With)
+- [Screenshots](🛠Built With)
 
 </details>
 
@@ -78,7 +79,7 @@ TuneTrax stands as a decentralized music distribution platform leveraging blockc
 
 
 
-<h2 align="center">🛠 Built With</h2> 
+<h2 align="center">🛠Built With</h2> 
 
 * [Solidity][Solidity-url]
 * [Wagmi][Wagmi-url]
