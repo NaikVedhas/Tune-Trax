@@ -57,7 +57,7 @@ Key Attributes:
 
 
 
-<h2 align="center">🛠 Built With<h1/> 
+<h2 align="center">🛠 Built With<h2/> 
 
 * [Solidity][Solidity-url]
 * [Wagmi][Wagmi-url]
