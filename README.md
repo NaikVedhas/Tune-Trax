@@ -46,10 +46,10 @@ Key Attributes:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[![Screenshot 1][ss1-url]]
-[Screenshot 2][ss2-url]
-[Screenshot 3][ss3-url]
-[Screenshot 4][ss4-url]
+![Screenshot 1][ss1-url]
+![Screenshot 2][ss2-url]
+![Screenshot 3][ss3-url]
+![Screenshot 4][ss4-url]
 
 
 ## Built With
