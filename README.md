@@ -15,7 +15,14 @@
   </p>
 </div>
 
+<details>
+<summary>Table of Contents</summary>
+- [Screenshots](📝Description)
+- [Screenshots](🔮Key attributes)
+- [Screenshots](📱Screenshots)
+- [Screenshots](🛠 Built With)
 
+</details>
 
 <!-- TABLE OF CONTENTS -->
 <details>
