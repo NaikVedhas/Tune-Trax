@@ -69,7 +69,13 @@ TuneTrax stands as a decentralized music distribution platform leveraging blockc
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<h2 align="center">👨‍💻Team Members</h2> 
 
+
+- [Vedhas Naik- ](https://github.com/NaikVedhas) [LinkedIn](https://www.linkedin.com/in/vedhas-naik-005378253/) 
+- [Aastha Mhatre- ](https://github.com/Aastha2675) [LinkedIn](https://www.linkedin.com/in/aastha-mhatre-3226722b0/)
+- [Nisarga Kale - ](https://github.com/Nemo-0904) [LinkedIn](https://www.linkedin.com/in/nisarga-kale-a35627258/) 
+- [Sushrut Dabholkar -](https://github.com/Princy18Human) [LinkedIn](https://www.linkedin.com/in/sushrut-dabholkar-a465a5289/) 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
