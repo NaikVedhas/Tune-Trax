@@ -15,34 +15,6 @@
   </p>
 </div>
 
-<details>
-<summary>Table of Contents</summary>
-    
-- [Screenshots](📝Description)
-- [Screenshots](🔮Key attributes)
-- [Screenshots](📱Screenshots)
-- [Screenshots](🛠Built With)
-
-</details>
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#📝Description">Description</a>
-    </li>
-       <li>
-         <a href="🔮Key attributes">Key Attributes</a>
-     </li> 
-       <li>
-         <a href="📱Screenshots">Screenshots</a>
-     </li> 
-     <li>
-         <a href="🛠 Built With">Built With</a>
-     </li> 
-  </ol>
-</details>
 
 
 
