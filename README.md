@@ -33,7 +33,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## 📝Description
+<h2 align="center">📝Description<h2/> 
 
 
 
@@ -45,7 +45,7 @@ Key Attributes:
 * Effortlessly upload your songs within seconds, free from the involvement of intermediary platforms and cumbersome paperwork.
 
 
-## 📱Screenshots
+<h2 align="center">📱Screenshots <h2/> 
 
 
 ![Screenshot 1][ss1-url]
