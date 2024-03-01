@@ -38,6 +38,7 @@
 
 
 TuneTrax stands as a decentralized music distribution platform leveraging blockchain technology. Our platform empowers artists by enabling direct music distribution, transparent royalty management, and direct fan engagement. By eliminating intermediaries, TuneTrax allows artists to maximize their earning potential. Notably, Tune~Trax successfully addresses copyright and licensing complexities, providing a streamlined solution for artists in the music industry.
+<br/>
 Key Attributes:
 * Support your favourite Artist by giving direct donationsto them.
 * Only Straming platforms can download the song if authorized by Artist.
@@ -49,8 +50,11 @@ Key Attributes:
 
 
 ![Screenshot 1][ss1-url]
+<br/>
 ![Screenshot 2][ss2-url]
+<br/>
 ![Screenshot 3][ss3-url]
+<br/>
 ![Screenshot 4][ss4-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
