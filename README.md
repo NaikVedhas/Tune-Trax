@@ -54,6 +54,7 @@ TuneTrax stands as a decentralized music distribution platform leveraging blockc
 
 ## Smart Contract:
  <br/>
+ 
 * [Solidity][Solidity-url]
 * [Wagmi][Wagmi-url]
 * [Remix IDE][Remix-url]
