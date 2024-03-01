@@ -35,7 +35,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][ss1-url]]
 
 TuneTrax stands as a decentralized music distribution platform leveraging blockchain technology. Our platform empowers artists by enabling direct music distribution, transparent royalty management, and direct fan engagement. By eliminating intermediaries, TuneTrax allows artists to maximize their earning potential. Notably, Tune~Trax successfully addresses copyright and licensing complexities, providing a streamlined solution for artists in the music industry.
 Key Attributes:
@@ -84,3 +84,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 [Remix-url]: https://remix-project.org/
 [ipfs-url]: https://ipfs.tech/
 [pinata-url]: https://www.pinata.cloud/
+
+[ss1-url]: https://res.cloudinary.com/dow2w1ps0/image/upload/v1709271498/Screenshot_2024-03-01_110351_m5bvfq.png
+[ss2-url]: https://res.cloudinary.com/dow2w1ps0/image/upload/v1709271497/Screenshot_2024-03-01_110225_t5wj2w.png
+[ss3-url]: https://res.cloudinary.com/dow2w1ps0/image/upload/v1709271496/Screenshot_2024-03-01_110654_hclf1y.png
+[ss4-url]: https://res.cloudinary.com/dow2w1ps0/image/upload/v1709271496/Screenshot_2024-03-01_110538_btjugy.png
