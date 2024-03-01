@@ -22,8 +22,14 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#📝Description">About The Project</a>
+      <a href="#📝Description">Description</a>
     </li>
+       <li>
+         <a href="🔮Key attributes">Key Attributes</a>
+     </li> 
+       <li>
+         <a href="📱Screenshots">Screenshots</a>
+     </li> 
      <li>
          <a href="#built-with">Built With</a>
      </li> 
@@ -42,9 +48,9 @@ TuneTrax stands as a decentralized music distribution platform leveraging blockc
 
 <h2 align="center">🔮Key attributes </h2>
 
-- [x] Support your favourite Artist by giving direct donationsto them.
-- [x] Only Straming platforms can download the song if authorized by Artist.
-- [x] Stream unlimited high quality songs for free without a Wallet!!
+- [x] Support your favourite Artist by giving direct donations to them.
+- [x] Only Straming platforms can Download the song if authorized by Artist.
+- [x] Stream Unlimited high quality songs for Free without a Wallet!!
 - [x] Effortlessly upload your songs within seconds, free from the involvement of intermediary platforms and cumbersome paperwork.
 
 <h2 align="center">📱Screenshots </h2> 
