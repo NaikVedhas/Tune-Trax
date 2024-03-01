@@ -40,7 +40,7 @@ TuneTrax stands as a decentralized music distribution platform leveraging blockc
 <br/>
 <br/>
 
-<h2 align="center">📝Key attributes </h2>
+<h2 align="center">🔮Key attributes </h2>
 
 - [x] Support your favourite Artist by giving direct donationsto them.
 - [x] Only Straming platforms can download the song if authorized by Artist.
