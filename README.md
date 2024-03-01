@@ -66,6 +66,7 @@ TuneTrax stands as a decentralized music distribution platform leveraging blockc
 
 * [React][React-url]
 * [Tailwind CSS][Tailwind-url]
+* [Material UI][matrerial-url]
  <br/>
 
 ## Storage:
@@ -102,7 +103,7 @@ TuneTrax stands as a decentralized music distribution platform leveraging blockc
 [Remix-url]: https://remix-project.org/
 [ipfs-url]: https://ipfs.tech/
 [pinata-url]: https://www.pinata.cloud/
-
+[matrerial-url]: https://mui.com/material-ui/
 [ss1-url]: https://res.cloudinary.com/dow2w1ps0/image/upload/v1709271498/Screenshot_2024-03-01_110351_m5bvfq.png
 [ss2-url]: https://res.cloudinary.com/dow2w1ps0/image/upload/v1709271497/Screenshot_2024-03-01_110225_t5wj2w.png
 [ss3-url]: https://res.cloudinary.com/dow2w1ps0/image/upload/v1709271496/Screenshot_2024-03-01_110654_hclf1y.png
