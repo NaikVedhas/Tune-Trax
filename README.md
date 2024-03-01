@@ -43,7 +43,7 @@ TuneTrax stands as a decentralized music distribution platform leveraging blockc
 - [x] Only Straming platforms can download the song if authorized by Artist.
 - [x] Stream unlimited high quality songs for free without a Wallet!!
 - [x] Effortlessly upload your songs within seconds, free from the involvement of intermediary platforms and cumbersome paperwork.
-
+- [X] wdubd
 
 <h2 align="center">📱Screenshots </h2> 
 
