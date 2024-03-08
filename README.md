@@ -6,7 +6,7 @@
   </a>
 
   <p align="center">
-    <h2> <i>Tune in your favourite trax</i> </h2>
+    <h3> <i>Tune in your favourite trax</i> </h3>
     <br />
     <a href="https://drive.google.com/file/d/1eM1_bsOOuC0Rusi3zYD-u6_Qb6hpMeoH/view?usp=sharing">View Demo Video »</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://tunetrax.vercel.app/">Visit live project »</a>

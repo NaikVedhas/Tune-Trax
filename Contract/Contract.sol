@@ -20,7 +20,7 @@ string[] namesOfSongs;
 string[] imageOfSongs;
 address[] accessList;         
 }
-
+    
 mapping (uint => Artist) public  noOfArtist;
 uint public nthArtist;
 
@@ -34,9 +34,6 @@ string memory _imageHash,
 string memory _instaId,
 string  memory _twitterId,
 string memory _description
-
-
-
 ) public payable {
 
 
