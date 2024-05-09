@@ -82,7 +82,6 @@ TuneTrax stands as a decentralized music distribution platform leveraging blockc
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 <h2 align="center">👨‍💻Team Members</h2> 
 
 
