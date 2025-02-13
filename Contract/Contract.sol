@@ -15,6 +15,7 @@ string imageHash;
 uint funds;
 uint counter; 
 
+
 string[] songsIpfsHash;
 string[] namesOfSongs; 
 string[] imageOfSongs;
@@ -101,7 +102,6 @@ Artist storage thisArtist = noOfArtist[_id];
 thisArtist.artistAddress.transfer(thisArtist.funds);      //Transfering all the funds  
 thisArtist.funds = 0;
 arrArtist[_id]=thisArtist;
-
 
 }
 
