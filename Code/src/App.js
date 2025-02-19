@@ -17,10 +17,11 @@ const chains = [mainnet,sepolia,polygon, optimism, arbitrum ];
 const config = createConfig(
   getDefaultConfig({
 
-    infuraId:process.env.INFURA_ID, 
-    walletConnectProjectId:process.env.WALLETCONNECT_PROJECT_ID,
+    transports: {
+      [sepolia.id]: process.env.REACT_APP_INFURA_ID,
+    },
+    walletConnectProjectId:process.env.REACT_APP_WALLETCONNECT_PROJECT_ID,
     chains,
-
     // Required
     appName: "Crypto Melodies",
 

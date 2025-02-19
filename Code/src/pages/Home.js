@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Slider from "../pages/slider";
+import { ethers } from "ethers";
+
 import { IndexContext } from "../context/indexContext";
 import { ArtistContext } from "../context/artContext";
 import { useAccount } from "wagmi";
-import { useReadContract } from "wagmi";
 import abi from "../Metadata/Abi.json";
 import contractAddress from "../Metadata/ContractAddress.js";
 import { sepolia } from 'wagmi/chains';
-import { IoLogIn } from "react-icons/io5";
 
 
 const ArtistCard = ({ artist, pointerOfArray }) => {
@@ -28,7 +28,7 @@ const ArtistCard = ({ artist, pointerOfArray }) => {
   return (
     <Link to="/Artist" onClick={handleArtistClick}>
       <div
-        className={`max-w-lg rounded rounded-3xl overflow-hidden shadow-lg bg-transparant transition-transform duration-300 transform hover:scale-105 border border-black border-4   ${isHovered ? "shadow-xl" : ""
+        className={`max-w-lg  rounded-3xl overflow-hidden shadow-lg bg-transparant transition-transform duration-300 transform hover:scale-105  border-black border-4   ${isHovered ? "shadow-xl" : ""
           }`}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
@@ -36,7 +36,7 @@ const ArtistCard = ({ artist, pointerOfArray }) => {
       >
         <div>
           <img
-            className="h-80 w-80 object-cover rounded-full mx-auto mt-20 border border-black border-4"
+            className="h-80 w-80 object-cover rounded-full mx-auto mt-20  border-black border-4"
             src={artist.imageHash}
             alt={artist.name}
           />
@@ -56,27 +56,37 @@ const Home = () => {
   const [artists, setArtists] = useState([]);
   const account = useAccount();
 
-  const { data } = useReadContract({
-    abi,
-    address: contractAddress,
-    functionName: "getArrArtist",
-    chainId: sepolia.id,
-    account: account.address,
-  });
+  // const { data } = useReadContract({
+  //   abi,
+  //   address: contractAddress,
+  //   functionName: "getArrArtist",
+  //   chainId: sepolia.id,
+  //   account: account.address,
+  // });
 
-  useEffect(() => {
-    if (data) {
-      setArtists(data);
-    }
-  }, [data]);
-
-
-
-  console.log(process.env.JWT);
-  console.log(process.env.INFURA_ID);
-
+  // useEffect(() => {
+  //   console.log("f");
+    
+  //   if (data) {
+  //     console.log("hy");
+      
+  //     setArtists(data);
+  //   }
+  // }, [data]);
 
 
+  const callBlockchainData = async () => {
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const signer = provider.getSigner();
+    const contract = new ethers.Contract(contractAddress, abi, signer);
+    const data = await contract.getArrArtist();
+
+    setArtists(data);
+  };
+
+  useEffect(()=>{
+    callBlockchainData();
+  },[])
 
 
   return (
