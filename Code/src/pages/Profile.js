@@ -5,6 +5,8 @@ import { BiSkipPrevious } from "react-icons/bi";
 import { GoPlusCircle } from "react-icons/go";
 import "../css/profile.css";
 import { useWriteContract } from 'wagmi';
+import { ethers } from "ethers";
+
 import abi from "../Metadata/Abi.json";
 import contractAddress from "../Metadata/ContractAddress";
 import { useAccount } from "wagmi";
@@ -109,6 +111,7 @@ const UserProfile = ({ parameter, parameter2 }) => {
 const Profile = () => {
 
     const account = useAccount();
+    const [data,setData]= useState();
     const [currentTrack, setCurrentTrack] = useState(0);
     const [isPlaying, setIsPlaying] = useState(false);
     const audioRef = useRef(null);
@@ -124,21 +127,34 @@ const Profile = () => {
 
 
     //Taking the exact user 
-    const { data } = useReadContract({
-        abi,
-        address: contractAddress,
-        functionName: "getArrArtist",
-        chainId: sepolia.id,
-        account: account.address,
-    });
+    // const { data } = useReadContract({
+    //     abi,
+    //     address: contractAddress,
+    //     functionName: "getArrArtist",
+    //     chainId: sepolia.id,
+    //     account: account.address,
+    // });
 
+
+    const callBlockchainData = async () => {
+        const provider = new ethers.providers.Web3Provider(window.ethereum);
+        const signer = provider.getSigner();
+        const contract = new ethers.Contract(contractAddress, abi, signer);
+        const data = await contract.getArrArtist();
+    
+        setData(data);
+      };
+
+      useEffect(()=>{
+        callBlockchainData();
+      },[])
     let indexOfArtist;
 
     if (data) {
 
         indexOfArtist = data.findIndex((obj) => obj.artistAddress === account.address); //I got the index of that Artist
     }
-    if (indexOfArtist == -1) {
+    if (indexOfArtist === -1) {
         return <div className="artist-not-found" style={{ color: "white" }}>Sorry This is only for Artist</div>
     }
 

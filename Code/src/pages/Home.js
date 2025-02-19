@@ -4,13 +4,10 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Slider from "../pages/slider";
 import { ethers } from "ethers";
-
 import { IndexContext } from "../context/indexContext";
 import { ArtistContext } from "../context/artContext";
-import { useAccount } from "wagmi";
 import abi from "../Metadata/Abi.json";
 import contractAddress from "../Metadata/ContractAddress.js";
-import { sepolia } from 'wagmi/chains';
 
 
 const ArtistCard = ({ artist, pointerOfArray }) => {
@@ -54,7 +51,6 @@ const ArtistCard = ({ artist, pointerOfArray }) => {
 
 const Home = () => {
   const [artists, setArtists] = useState([]);
-  const account = useAccount();
 
   // const { data } = useReadContract({
   //   abi,
@@ -75,14 +71,34 @@ const Home = () => {
   // }, [data]);
 
 
-  const callBlockchainData = async () => {
-    const provider = new ethers.providers.Web3Provider(window.ethereum);
-    const signer = provider.getSigner();
-    const contract = new ethers.Contract(contractAddress, abi, signer);
-    const data = await contract.getArrArtist();
+  // const callBlockchainData = async () => {
 
-    setArtists(data);
+  //   const provider = new ethers.providers.Web3Provider(window.ethereum);
+  //   const signer = provider.getSigner();
+  //   const contract = new ethers.Contract(contractAddress, abi, signer);
+  //   const data = await contract.getArrArtist();
+
+  //   setArtists(data);
+
+  // };
+
+  const callBlockchainData = async () => {
+    if (!window.ethereum) {
+      console.error("MetaMask is not installed");
+      return;
+    }
+  
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const contract = new ethers.Contract(contractAddress, abi, provider);
+    
+    try {
+      const data = await contract.getArrArtist();
+      setArtists(data);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
   };
+  
 
   useEffect(()=>{
     callBlockchainData();

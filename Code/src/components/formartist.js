@@ -72,7 +72,7 @@ const ArtistForm = ({ onClose }) => {
     }
 
     const imageIpfsHash = await uploadToIPFS();
-    if (imageIpfsHash == 0) {
+    if (imageIpfsHash === 0) {
       return(alert("Please upload image"));
     }
 

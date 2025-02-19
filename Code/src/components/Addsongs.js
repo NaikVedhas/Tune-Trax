@@ -111,10 +111,10 @@ const Addsongs = ({ onClose , parameter}) => {
     const songIpfsHash = await uploadToIPFS1();
     const songimageIpfsHash = await uploadToIPFS2();
     
-    if (songIpfsHash == 0) {
+    if (songIpfsHash === 0) {
       return(alert("Please upload a song"));
     }
-    if (songimageIpfsHash == 0) {
+    if (songimageIpfsHash === 0) {
       return(alert("Please upload a song image"));
     }
 

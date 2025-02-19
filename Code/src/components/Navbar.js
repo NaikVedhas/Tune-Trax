@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
-import { IoCloseCircle, IoLogIn } from 'react-icons/io5';
+import React, { useState,useEffect } from 'react';
+import { IoCloseCircle } from 'react-icons/io5';
 import ArtistForm from './formartist';
 import '../css/navbar.css';
-import { NavLink } from "react-router-dom";
 import { ConnectKitButton } from "connectkit";
 import { useAccount } from "wagmi";
 import { useReadContract } from "wagmi";
+import { ethers } from "ethers";
+
 import abi from "../Metadata/Abi.json";
 import contractAddress from "../Metadata/ContractAddress.js";
 import { sepolia } from 'wagmi/chains';
@@ -13,7 +14,7 @@ import { sepolia } from 'wagmi/chains';
 
 const Navbar = () => {
   const [isArtistFormOpen, setIsArtistFormOpen] = useState(false);
-
+  const [data,setData] = useState();
   const openArtistForm = () => {
     if (!isArtistFormOpen) {
       setIsArtistFormOpen(true);
@@ -25,14 +26,34 @@ const Navbar = () => {
   };
 
 
+  
+
   const account = useAccount();
-  const { data } = useReadContract({
-    abi,
-    address: contractAddress,
-    functionName: "getArrArtist",
-    chainId: sepolia.id,
-    account: account.address,
-  });
+  const callBlockchainData = async () => {
+    if (!window.ethereum) {
+      console.error("MetaMask is not installed");
+      return;
+    }
+  
+    const provider = new ethers.providers.Web3Provider(window.ethereum);
+    const contract = new ethers.Contract(contractAddress, abi, provider);
+    
+    try {
+      const data = await contract.getArrArtist();
+      setData(data);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
+
+  useEffect(()=>{
+    callBlockchainData();
+  },[])
+
+  
+
+
+
 
   let check = false;
   if (data) {

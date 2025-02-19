@@ -97,12 +97,12 @@ const Artist = () => {
     setBb(props);
     for (let i = 0; i < selectedArtist.accessList.length; i++) {
 
-      if (account.address == selectedArtist.accessList[i]) {
+      if (account.address === selectedArtist.accessList[i]) {
         check = true;
       }
     }
     
-    if (check == true) {
+    if (check === true) {
       return (writeContract({
         abi,
         address: contractAddress,

@@ -11,7 +11,7 @@ import { mainnet,polygon,sepolia, optimism, arbitrum } from "wagmi/chains";
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 
-const chains = [mainnet,sepolia,polygon, optimism, arbitrum ];
+const chains = [sepolia,mainnet,polygon, optimism, arbitrum ];
 
 
 const config = createConfig(

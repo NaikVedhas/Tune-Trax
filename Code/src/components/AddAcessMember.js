@@ -23,7 +23,7 @@ const AddMember = ({ onClose , parameter}) => {
       return;
     }
 
-    const addr = ethers.getAddress(addrinString);  //Converting String to Address
+    const addr = ethers.utils.getAddress(addrinString);  //Converting String to Address
     
     return (writeContract({
       abi,
